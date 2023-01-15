@@ -1,0 +1,21 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: Yes, all three models classified the dog breed correctly.
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: Yes, all three models classified both Dog_01.jpg and Dog_02 as the same breed of dogs. 
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: Yes, both Turtle_01.jpg and Water_bottle.jpg were classified as Not Dog by all 3 models.
+ 
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: All 3 models preformed perfectly for this test, identifying both dog images and non dog images correctly, so the only other way to judge these models as by the time it took them to run and return the classifications. 
+VGG model's total elapsed runtime was 00:00:03, but it was 00:00:00 for the other 2 models, so from this we casn say that Alexent and Resnet models outpreform VGG slightly by being faster to run and are the best.
